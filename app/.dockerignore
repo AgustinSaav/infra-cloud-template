@@ -1,7 +1,7 @@
 __pycache__/
 *.pyc
-.pytest_cache/
-.ruff_cache/
 .venv/
-tests/
-*.joblib
+venv/
+.git/
+.env
+.pytest_cache/
