@@ -10,7 +10,7 @@ COPY train.py serve.py ./
 RUN python train.py
 
 EXPOSE 8081
-ENV MODEL_PATH=/app/model.joblib PORT=8081
+ENV MODEL_PATH=/app/model-v0.1.0.joblib PORT=8081
 
 # `docker ps` shows (healthy) once /healthz answers. Kubernetes ignores this
 # and uses the chart's probes instead.

@@ -11,7 +11,7 @@ import joblib
 from sklearn.datasets import load_iris
 from sklearn.linear_model import LogisticRegression
 
-MODEL_PATH = "model.joblib"
+MODEL_PATH = "model-v0.1.0.joblib"
 
 
 def main() -> None:
